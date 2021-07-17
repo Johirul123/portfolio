@@ -1,0 +1,298 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: monospace;
+
+
+}
+section {
+	padding: 100px;
+}
+.about{
+	background: #111;
+}
+.bangla {
+	position: relative;
+	min-height: 100vh;
+	background: url(pexels-junior-teixeira-2047905.jpg);
+	background-size: cover;
+	background-position: right;
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+}
+.bangla h2 {
+	font-size: 3em;
+	color: #fff;
+	font-weight: 500;
+	line-height: 1.5em;
+}
+.bangla h2 span {
+	font-size: 1.5em;
+	font-weight: 800;
+}
+
+
+.bangla h3 {
+	font-size: 1.5em;
+	color: #fff;
+	font-weight: 600;
+}
+.bangla a:hover{
+	color: #111;
+	transition: 1s;
+}
+.bdt {
+	position: relative;
+	background: #2196f3;
+	display: inline-block;
+	color: #fff;
+	margin-top: 20px;
+	padding: 10px 30px;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: 500;
+
+}
+ul li a:hover {
+	color: black;
+	transition: 1.1s;
+}
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 40px 100px;
+	z-index: 1000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.5s;
+}
+
+header .logo {
+	color: #fff;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 700;
+	letter-spacing: 2px;
+
+
+}
+header .logo:hover {
+	color: gray;
+	transition: 0.1s;
+}
+header.sticky {
+	background:tomato;
+	padding: 20px 100px;
+	box-shadow: 0 5px 20px rgba(0,0,0,0,1);
+}
+header.sticky ul li a {
+ color: #000000;
+}
+header.sticky .logo {
+	color: #000000;
+}
+
+
+header ul {
+	position: relative;
+	display: flex;
+}
+
+header ul li {
+	position: relative;
+	list-style: none;
+}
+header ul li a {
+	position: relative;
+	display: inline-block;
+	margin: 0 15px;
+	color: #fff;
+	text-decoration: none;
+
+}
+
+.heading {
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 30px;
+	color: #fff;
+}
+
+.heading h2 {
+	font-weight: 600;
+	font-size: 30px;
+
+}
+.content {
+	display: flex;
+	justify-content: space-around;
+}
+.contentBz {
+	padding: 30px;
+}
+.contentBz h3 {
+	font-size: 34px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+.contentBz h3:hover{
+	color: lightblue;
+	transition: 1.1s;
+}
+.contentBz p {
+	font-size: 20px;
+	color: #fff;
+}
+.w50 {
+	min-height: 50%;
+}
+.img {
+	width: 80%;
+	height: 50%;
+}
+.services {
+	background: #111;
+}
+.heading.white {
+	color: #fff;
+} 
+.services .content {
+	display: inline-block;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.services .content .servicessBz {
+	padding: 40px 20px;
+	background: #222;
+	color: #fff;
+	max-width: 340px;
+	margin: 20px;
+	text-align: center;
+	transition: 1.5s;
+}
+.services .content .servicessBz:hover {
+	background: #2196f3;
+}
+.services .content .servicessBz img {
+	max-width: 80px;
+	filter: invert(5);
+}
+.services .content .servicessBz h2 {
+	font-size: 30px;
+	font-weight: 600;
+}
+.works {
+	background: #111;
+}
+.work h2  {
+	font-size: 30px;
+	font-weight: 600;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+} 
+.work p{
+	text-align: center; 
+	font-size: 22px;
+	font-weight: 500;
+	color: #fff;
+}
+.workBz img {
+	width: 100%;
+}
+.work {
+	background: #111;
+}
+
+.contact {
+	background: lightblue;
+}
+.contactinfo h3{
+	color: #fff;
+	font-size: 15px;
+}
+.heading h1 {
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.heading h2 {
+	font-size: 30px;
+	font-weight: 600;
+	color: #fff;
+	text-align: left;
+}
+
+
+.heading p {
+	color: #fff;
+	font-size: 20px;
+}
+.content.contactinfo.box h3{
+	color: #fff;
+}
+.heading a:hover{
+	transition: 1.3s;
+	color: #111;
+}
+.text h3{
+	color: #fff;
+	font-size: 25px;
+}
+.contact {
+	background: #111;
+}
+.formBx {
+	min-width: 60%;
+}
+.formBx form {
+	display: flex;
+	flex-direction: column;
+}
+.formBx form h3 
+.contactinfo h3 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.formBx form input {
+	margin-bottom: 20px;
+	padding: 15px;
+	font-size: 16px;
+	outline: none;
+	border: none;
+	background: #222;
+	color: #fff;
+}
+.formBx form textarea {
+	min-height: 200px;
+}
+.ten {
+	background: #111;
+	height: 10px;
+}
+div p {
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700;
+	
+
+}
+.nine p:hover{
+	color: #111;
+	transition: 0.3s;
+}
